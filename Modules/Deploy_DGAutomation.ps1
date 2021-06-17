@@ -59,10 +59,10 @@ Write-Host "Success: Code=0" -for green
 ##install robotframework & selenium library
 Write-Host "Deploying robotframework & selenium library..." -for cyan
 pip install robotframework-remoterunner
-pip install robotframework==3.0.4
+pip install robotframework==3.1.1
 pip install wheel
 pip install wxPython==4.1.0
-pip install robotframework==3.0.4
+pip install robotframework==3.1.1
 pip install robotframework-archivelibrary==0.4.0
 pip install robotframework-autoitlibrary==1.1.0
 pip install decorator
